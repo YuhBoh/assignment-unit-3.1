@@ -38,7 +38,7 @@ console.log(`Please do not eat my`, animalArray[3], `. I will be very sad.`);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-console.log(`dog is on number:`, animalArray.length);
+console.log(`dog is here ->`, animalArray[animalArray.length - 1]);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
